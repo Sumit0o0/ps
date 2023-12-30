@@ -7,7 +7,7 @@ const Footer = () => {
         <Link to="/" className="text-3xl">
           👨🏿
         </Link>
-        <p className="text-center">Made with ❤️ by Sumit</p>
+        <p className="text-center my-auto">Made with ❤️ by Sumit</p>
       </div>
     </footer>
   );

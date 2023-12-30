@@ -1,27 +1,32 @@
 const Education = () => {
   return (
-    <table className="w-full border border-white dark:border-zinc-600">
+    <table className="w-full border border-zinc-500 dark:border-zinc-600">
       <thead className="">
-        <tr className="border-b border-white dark:border-zinc-600">
-          <th className="w-3/5 p-1 text-start">School</th>
-          <th className="w-1/5 p-1 text-start">Course</th>
+        <tr className="border-b-2 border-zinc-500 dark:border-zinc-600">
+          <th className="w-4/5 p-1 text-start">Course & School</th>
           <th className="w-1/5 p-1">Year</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td className="py-1 px-1">School of Open Learning, Delhi University</td>
-          <td className="py-1 px-1">Graduation</td>
-          <td className="py-1 px-1 text-center">2024</td>
+        <tr className="border-b border-gray-400 dark:border-zinc-700">
+          <td className="p-2">
+            <span className="font-bold">Bcom</span> - School of Open Learning,
+            Delhi University
+          </td>
+          <td className="p-2 text-center">2024</td>
         </tr>
-        <tr>
-          <td className="py-1 px-1">Techstack Acedamy, Saket, Delhi</td>
-          <td className="py-1 px-1">FSWD</td>
-          <td className="py-1 px-1 text-center">2023</td>
+        <tr className="border-b border-gray-400 dark:border-zinc-700">
+          <td className="p-2">
+            <span className="font-bold">FSWD</span> - Techstack Acedamy, Saket,
+            Delhi
+          </td>
+          <td className="p-2 text-center">2023</td>
         </tr>
-        <tr>
-          <td className="py-1 px-1">DCA Sr. Sec. School, Lodhi Colony </td>
-          <td className="py-1 px-1">Higher Secondary</td>
+        <tr className="border-b border-gray-400 dark:border-zinc-700">
+          <td className="p-2">
+            <span className="font-bold">Higher Secondary</span> - DCA Sr. Sec. School, Lodhi
+            Colony
+          </td>
           <td className="py-1 px-1 text-center">2020</td>
         </tr>
       </tbody>

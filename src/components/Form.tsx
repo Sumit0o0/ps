@@ -48,7 +48,7 @@ const Form = (props: Props) => {
       className="col-span-12 md:col-span-9 relative">
       <span
         ref={alert}
-        className="alert text-3xl w-full border-2 px-2 py-1 border-green-500 text-green-800 absolute right-0 bottom-3 bg-white dark:bg-zinc-900 hidden">
+        className="alert text-3xl w-full border-2 px-2 py-1 absolute right-0 bottom-3 bg-white dark:bg-zinc-900 border-zinc-500 text-zinc-900 dark:text-white text-center hidden">
         Form Submited!
       </span>
       <p className="text-xl">Send me a message</p>
