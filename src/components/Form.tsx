@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+const APIKEY = import.meta.env.VITE_API_KEY;
 
 type Props = {};
 
@@ -25,7 +26,7 @@ const Form = (props: Props) => {
           "service_cd3fqbf",
           "template_3gff3sj",
           formElement,
-          "-UW8XFe2ROy6QuWP5"
+          APIKEY
         )
         .then(
           (res) => {
