@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-12  gap-x-6">
+    <div className="grid grid-cols-12 gap-y-6 md:gap-y-0 md:gap-x-6">
       {/* <h1 className="text-center">Projects in progress...</h1> */}
       <Card
         GitURL="woodbone#readme"

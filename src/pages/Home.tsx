@@ -9,7 +9,7 @@ const Home = () => {
       <div className="grid grid-cols-12 md:gap-x-6 gap-y-6 md:gap-y-0">
         <div
           id="hero"
-          className="flex col-span-12  md:col-span-6 border-2 border-zinc-700 p-3">
+          className="flex col-span-12  md:col-span-6 border-2 border-zinc-700 p-3 dark:bg-zinc-800 dark:backdrop-blur-md dark:bg-opacity-30 bg-zinc-200 bg-opacity-40">
           <div className="my-auto">
             <h1 className="block text-3xl md:text-5xl mb-1 font-medium my-auto">
               Hi, I'm Sumit [👨🏿]
@@ -21,7 +21,7 @@ const Home = () => {
         </div>
         <div
           id="skills"
-          className="col-span-12 md:col-span-6 border-2 border-zinc-700 p-3">
+          className="col-span-12 md:col-span-6 border-2 border-zinc-700 p-3 dark:bg-zinc-800 dark:backdrop-blur-md dark:bg-opacity-30 bg-zinc-200 bg-opacity-40">
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
             Skills
           </h2>
@@ -154,7 +154,7 @@ const Home = () => {
         </div>
         <div
           id="education"
-          className="col-span-12 md:col-span-8 border-2 border-zinc-700 p-3 mt-6">
+          className="col-span-12 md:col-span-8 border-2 border-zinc-700 p-3 mt-6 dark:bg-zinc-800 dark:backdrop-blur-md dark:bg-opacity-30 bg-zinc-200 bg-opacity-40">
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
             Education
           </h2>
@@ -162,7 +162,7 @@ const Home = () => {
         </div>
         <div
           id="Awards"
-          className="col-span-12 md:col-span-4 border-2 border-zinc-700 p-3 mt-6">
+          className="col-span-12 md:col-span-4 border-2 border-zinc-700 p-3 mt-6 dark:bg-zinc-800 dark:backdrop-blur-md dark:bg-opacity-30 bg-zinc-200 bg-opacity-40">
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
             Certificates
           </h2>
@@ -170,7 +170,7 @@ const Home = () => {
         </div>
         <div
           id="projects"
-          className="col-span-12 border-2 border-zinc-700 p-3 mt-6">
+          className="col-span-12 border-2 border-zinc-700 p-3 mt-6 dark:bg-zinc-800 dark:backdrop-blur-md dark:bg-opacity-30 bg-zinc-200 bg-opacity-40 bg-zinc-200 bg-opacity-40">
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
             Projects
           </h2>
@@ -178,7 +178,7 @@ const Home = () => {
         </div>
         <div
           id="contact"
-          className="col-span-12 border-2  border-zinc-700 p-3 mt-6">
+          className="col-span-12 border-2  border-zinc-700 p-3 mt-6 dark:bg-zinc-800 dark:backdrop-blur-md dark:bg-opacity-30 bg-zinc-200 bg-opacity-40">
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
             Contact
           </h2>
