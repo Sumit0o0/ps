@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Projects from "./Projects";
 import Form from "../components/Form";
+import Education from "../components/Education";
 
 const Home = () => {
   return (
@@ -152,6 +153,22 @@ const Home = () => {
           </div>
         </div>
         <div
+          id="education"
+          className="col-span-12 md:col-span-8 border-2 border-zinc-700 p-3 mt-6">
+          <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
+            Education
+          </h2>
+          <Education />
+        </div>
+        <div
+          id="Awards"
+          className="col-span-12 md:col-span-4 border-2 border-zinc-700 p-3 mt-6">
+          <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
+            Awards
+          </h2>
+          <h1 className="text-center">Awards Are Updating...</h1>
+        </div>
+        <div
           id="projects"
           className="col-span-12 border-2 border-zinc-700 p-3 mt-6">
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
@@ -187,7 +204,7 @@ const Home = () => {
                 </Link>
               </p>
               <p>
-                Github: 
+                Github:
                 <Link
                   to="https://github.com/sumit0o0"
                   target="_blank"
