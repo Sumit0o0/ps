@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="border-t p-2 md:p-6 border-zinc-900 dark:border-zinc-100">
       <div className="flex justify-between">
-        <Link to="/" className="text-3xl">
+        <Link to="/ps" className="text-3xl">
           👨🏿
         </Link>
         <p className="text-center my-auto">Made with ❤️ by Sumit</p>

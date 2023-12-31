@@ -42,7 +42,7 @@ const Header = () => {
   return (
     <header className="border-b p-2 md:p-6 border-zinc-900 dark:border-zinc-100">
       <div className="flex justify-between">
-        <Link to="/" className="text-3xl">
+        <Link to="/ps" className="text-3xl">
           👨🏿
         </Link>
         <div className="flex my-auto gap-x-3">
