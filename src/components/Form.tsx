@@ -51,7 +51,7 @@ const Form = (props: Props) => {
         className="alert text-3xl w-full border-2 px-2 py-1 absolute right-0 bottom-3 bg-white dark:bg-zinc-900 border-zinc-500 text-zinc-900 dark:text-white text-center hidden">
         Form Submited!
       </span>
-      <p className="text-xl">Send me a message</p>
+      <p className="text-xl mb-2">Send me a message</p>
       <input
         className="w-full p-2 mb-3 border-2 border-zinc-700 bg-transparent focus:outline-none"
         type="text"

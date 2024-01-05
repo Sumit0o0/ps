@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Projects from "./Projects";
 import Form from "../components/Form";
 import Education from "../components/Education";
+import Certificates from "../components/Certificates";
 
 const Home = () => {
   return (
@@ -166,7 +167,21 @@ const Home = () => {
           <h2 className="text-xl md:text-2xl font-medium mb-3 border-b-2 border-zinc-700 text-center">
             Certificates
           </h2>
-          <h1 className="text-center">Work in Progress...</h1>
+          <Certificates
+            degree="Photoshop"
+            year="2022"
+            institution="Udemy - Daniel Walter Scott"
+          />
+          <Certificates
+            degree="National Cadet Corps (NCC)"
+            year="2018"
+            institution="GBSSS No.1 (Show Discipline & Team Training)"
+          />
+          <Certificates
+            degree="Diploma in Computer Application"
+            year="2017"
+            institution="Center for Computer Education, Research and training"
+          />
         </div>
         <div
           id="projects"
@@ -204,7 +219,7 @@ const Home = () => {
                 </Link>
               </p>
               <p className="mb-1">
-                Github:{" "} 
+                Github:{" "}
                 <Link
                   to="https://github.com/sumit0o0"
                   target="_blank"

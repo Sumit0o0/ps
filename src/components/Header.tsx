@@ -79,7 +79,12 @@ const Header = () => {
               </div>
             )}
           </div>
-          <a className="bg-teal-700 px-2 shadow-[2px_2px_0_0] shadow-teal-500" href="https://drive.google.com/file/d/1OBeYFOuNrAOiQF-Tr1hkdcrIpwaexpHS/view?usp=sharing" target="_blank">Resume</a>
+          <a
+            className="bg-teal-700 px-2 shadow-[2px_2px_0_0] shadow-teal-500"
+            href="https://drive.google.com/file/d/1a3LDcYcvlE1xe9TQIsvprbHjceXhMEMU/view?usp=sharing"
+            target="_blank">
+            Resume
+          </a>
         </div>
       </div>
     </header>
